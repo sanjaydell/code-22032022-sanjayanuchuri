@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
 import { Block, SearchBlock } from './Atoms'
+import Navbar from '../Navbar/Navbar'
 
 function Home() {
   return (
@@ -9,8 +10,8 @@ function Home() {
         id='Home'
         style={{ backgroundImage: 'url(/villa.jpg)' }}
       >
-        <div className='Navbar'>
-          Navbar
+        <div className='Topbar'>
+          <Navbar />
         </div>
         <div className='Main'>
           <h1>Rethink your</h1>
