@@ -3,7 +3,7 @@ import './Explore.css'
 
 function Explore() {
   return (
-    <div className='Explore'>Explore</div>
+    <div className='Explore' id='Explore'>Explore</div>
   )
 }
 

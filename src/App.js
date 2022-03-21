@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import About from './components/About/About';
 import Explore from './components/Explore/Explore';
@@ -5,11 +6,11 @@ import Home from './components/Home/Home';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <Home />
       <Explore />
       <About />
-    </div>
+    </div>  
   );
 }
 

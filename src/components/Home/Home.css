@@ -1,4 +1,56 @@
 .Home {
-  background-color: cadetblue;
+  background-repeat: 'no-repeat';
+  background-size: 'cover';
   height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Navabr {
+  height: 70px;
+  color: white;
+}
+
+.Main {
+  margin-top: 20vh;
+  color: white;
+}
+
+.Main > h1 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 6vw;
+}
+
+.Main > h2 {
+  font-weight: 700;
+  font-size: 2.5vw;
+}
+
+.Footer {
+  display: flex;
+  background-color: white;
+  margin-left: 10vw;
+  border-radius: 30px;
+  background-color: rgba(250, 248, 248, 0.5);
+  width: 80vw;
+  height: auto;
+}
+
+.Block {
+  padding: 0;
+  margin: 15px;
+  height: 12vh;
+  width: 20vw;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.SearchBlock {
+  padding: 0;
+  margin: 15px;
+  height: 12vh;
+  width: 20vw;
+  background-color: orangered;
+  border-radius: 20px;
 }
