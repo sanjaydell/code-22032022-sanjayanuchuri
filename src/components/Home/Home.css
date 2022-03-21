@@ -11,9 +11,12 @@
   display: inline;
 }
 
+/* .center > a {
+  color: white;
+} */
+
 .Navabr {
   height: 70px;
-  color: white;
 }
 
 .Main {

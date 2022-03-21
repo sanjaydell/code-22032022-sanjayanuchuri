@@ -11,7 +11,7 @@ function Home() {
         style={{ backgroundImage: 'url(/villa.jpg)' }}
       >
         <div className='Topbar'>
-          <Navbar />
+          <Navbar color='white' />
         </div>
         <div className='Main'>
           <h1>Rethink your</h1>
