@@ -1,4 +1,66 @@
 .About {
-  background-color: aqua;
   height: 200vh;
+}
+
+.about_card {
+  margin: auto;
+  width: auto;
+  align-items: center;
+  display: grid;
+  grid-column-gap: 10vw;
+  grid-row-gap: 5vh;
+  grid-template-columns: repeat(2, 40vw);
+  grid-template-rows: repeat(2, 30vw);
+}
+
+.card_background {
+  border-radius: 20px;
+  width: 30vw;
+  height: 40vh;
+  margin: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.about_description {
+  text-align: left;
+  display: flex;
+  height: auto;
+  width: 25vw;
+  margin: auto;
+  background-color: rgba(250, 248, 248, 0.5);
+  border-radius: 20px;
+  z-index: 3;
+  position: absolute;
+  padding-bottom: 0.5rem;
+  margin-left: 2.5vw;
+  top: 31vh;
+}
+
+.about_description_header {
+  padding-bottom: 0.5rem;
+}
+
+.about_description_header > h3 {
+  margin-left: 1rem;
+  padding-bottom: 0.5rem;
+  height: 2vh;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.about_description_header > p {
+  margin: 0;
+  margin-left: 1rem;
+  font-weight: 500;
+  padding-right: 0.5rem;
+}
+
+.about_footer {
+  padding-top: 25vh;
+  color: black;
+  position: relative;
+  bottom: 0;
 }
