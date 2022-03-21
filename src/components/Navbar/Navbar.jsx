@@ -7,7 +7,7 @@ function Navbar() {
     <div className='Navbar'>
       <div className='left'>logo</div>
       <div className='center'><NavbarContents /></div>
-      <div className='right'>menu</div>
+      {/* <div className='right'>menu</div> */}
     </div>
   )
 }
