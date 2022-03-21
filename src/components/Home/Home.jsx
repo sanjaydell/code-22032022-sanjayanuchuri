@@ -19,9 +19,9 @@ function Home() {
           <h2>Make your stay painless with us</h2>
         </div>
         <div className='Footer'>
-          <Block header='City' body='Select your city'/>
-          <Block header='Dates' body='Select your dates'/>
-          <Block header='Guests' body='Add guests'/>
+          <Block header='CITY' body='Select your city'/>
+          <Block header='DATES' body='Select your dates'/>
+          <Block header='GUESTS' body='Add guests'/>
           <SearchBlock />
         </div>
       </div>

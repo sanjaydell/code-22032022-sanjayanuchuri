@@ -17,7 +17,7 @@
 }
 
 .Main {
-  margin-top: 20vh;
+  margin-top: 8vh;
   color: white;
 }
 
@@ -43,12 +43,29 @@
 }
 
 .Block {
+  text-align:  left;
   padding: 0;
   margin: 15px;
   height: 12vh;
   width: 20vw;
   background-color: white;
   border-radius: 20px;
+}
+
+.Block > h5 {
+  color: gray;
+  margin: 0;
+  padding-top: 0.2rem;
+  padding-left: 1rem;
+  font-size: 1vw;
+  font-weight: 500;
+}
+
+.Block > h3 {
+  margin: 0;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  font-weight: 500;
 }
 
 .SearchBlock {
