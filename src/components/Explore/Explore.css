@@ -1,4 +1,50 @@
 .Explore {
-  background-color: bisque;
   height: 100vh;
+}
+
+.header {
+  font-family: 'Exo 2' sans-serif;
+  padding-top: 8vh;
+  padding-left: 5vw;
+  text-align: left;
+}
+
+.header > h1 {
+  margin: 0;
+}
+.header > h2 {
+  margin: 0;
+  padding-top: 5px;
+  font-size: large;
+}
+
+.card-background {
+  height: 60vh;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  border-radius: 20px;
+  width: 40vw;
+  height: 50vh;
+  margin: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.description {
+  height: 10vh;
+  width: 35vw;
+  margin: auto;
+  background-color: rgba(250, 248, 248, 0.5);
+  border-radius: 20px;
+  z-index: 3;
+  position: absolute;
+  /* bottom: 0; */
+  margin-left: 2.5vw;
+  top: 45vh;
 }
