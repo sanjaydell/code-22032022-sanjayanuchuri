@@ -6,7 +6,7 @@ import { LandScapeCard, PortraitCard } from './Atoms'
 function About() {
   return (
     <div className='About' id='About'>
-      <div className='header'>
+      <div className='about_header'>
         <h1>About Us</h1>
         <h2>Allow us to tell a short story....</h2>
       </div>
@@ -38,7 +38,7 @@ function About() {
           backgroundImage='https://archello.s3.eu-central-1.amazonaws.com/images/2018/01/31/CASModernClassicVillaInteriorDesign3.1517361007.0961.jpg'
           chapterNumber={4}
           description='From the same town to over the seas, we are ready to
-          servev you anywhere'
+          serve you anywhere'
         />
       </div>
       <div className='about_footer' >
