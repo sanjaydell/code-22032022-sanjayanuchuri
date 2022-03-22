@@ -5,7 +5,7 @@ import { LandScapeCard, PortraitCard } from './Atoms'
 
 function About() {
   return (
-    <div className='About' id='About'>
+    <div className='about' id='About'>
       <div className='about_header'>
         <h1>About Us</h1>
         <h2>Allow us to tell a short story....</h2>

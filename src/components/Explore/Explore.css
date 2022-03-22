@@ -1,4 +1,4 @@
-.Explore {
+.explore {
   height: 100vh;
 }
 
@@ -18,7 +18,7 @@
   font-size: large;
 }
 
-.card-background {
+.card_background {
   height: 60vh;
   width: auto;
   display: flex;
