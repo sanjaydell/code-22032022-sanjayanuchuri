@@ -8,7 +8,7 @@ function Home() {
       <div
         className='Home'
         id='Home'
-        style={{ backgroundImage: 'url(/villa.jpg)' }}
+        style={{ backgroundImage: 'url(https://images.designtrends.com/wp-content/uploads/2016/07/08171430/Villa-Interior-Design-.jpg)' }}
       >
         <div className='Topbar'>
           <Navbar color='white' />
@@ -23,6 +23,9 @@ function Home() {
           <Block header='DATES' body='Select your dates'/>
           <Block header='GUESTS' body='Add guests'/>
           <SearchBlock />
+        </div>
+        <div className='image'>
+          <a href='#Explore' alt=''><img src='down.png' alt='' /></a>
         </div>
       </div>
   )

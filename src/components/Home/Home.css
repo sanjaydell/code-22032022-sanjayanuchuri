@@ -6,6 +6,10 @@
   background-size: cover;
 }
 
+.image > a > img {
+  padding-top: 1rem;
+}
+
 .Topbar {
   width: 30%;
   display: inline;
@@ -41,7 +45,8 @@
   margin-left: 10vw;
   border-radius: 30px;
   background-color: rgba(250, 248, 248, 0.5);
-  width: 80vw;
+  max-width: 80vw;
+  width: auto;
   height: auto;
 }
 
@@ -73,6 +78,7 @@
 
 .SearchBlock {
   padding: 0;
+  display: flex;
   margin: 15px;
   height: 12vh;
   width: 20vw;
@@ -80,3 +86,30 @@
   border-radius: 20px;
 }
 
+.SearchBlock > img {
+  margin-left: 2rem;
+  width: 2.5rem;
+  color: white;
+}
+
+.SearchBlock > h5 {
+  padding: 0.8rem;
+  font-size: 2rem;
+  margin: 0;
+  color: white;
+}
+
+@media only screen and (max-width: 500px) {
+  .Footer {
+    flex-direction: column;
+  }
+  .Block {
+    width: auto;
+    text-align: center;
+    font-size: 10vw;
+  }
+  .SearchBlock {
+    width: auto;
+    align-items: center;
+  }
+}

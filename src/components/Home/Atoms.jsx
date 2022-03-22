@@ -13,6 +13,8 @@ export const Block = ({ header, body}) => {
 export const SearchBlock = () => {
   return(
     <div className='SearchBlock'>
+      <img src='search.svg' alt='' />
+      <h5>Search</h5>
     </div>
   )
 }
