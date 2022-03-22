@@ -7,7 +7,7 @@ const NavbarContents = ({color}) => {
     <>
       <a href='#Explore' className='options' style={{color: `${color}`}}>Explore</a>
       <a href='#About' className='options' style={{color: `${color}`}}>About Us</a>
-      <a className='options' style={{color: `${color}`}}>Cities</a>
+      <a className='options' style={{color: `${color}`}}>Cities<img src='down.png' alt='' /></a>
       <a className='options' style={{ borderStyle: 'solid', padding: '0.5rem 3.5rem', borderRadius: '20px', color: `${color}`}}>Call</a>
     </>
   )
